@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <link rel="stylesheet" href="/static/estilos/style.css">
+           <link rel="stylesheet" href="/static/estilos/letras.css">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+           <title>Document</title>
+       </head>
+       <body class="container">
+           <main class="cardl">
+               <!--Espacio del Logotipo-->
+               <header>
+                   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+                   <div class="header-nav">
+                       <nav class="navigation">
+                           <ul>
+                               <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                               <li><a href="{{ url_for('menu') }}">Menu <i class="fas fa-clock"></i></a></li>
+                               <li><a href="{{ url_for('monitoreo') }}">Escaner</a></li>
+                           </ul>     
+                           <i class="fas fa-clock"></i>               
+                       </nav>
+                       <div class="espacio"></div>
+                       <div class="nav-logo">
+                           <img src="../static/access/logoSALSEC.png" alt="" class="header-img"/>
+                           <div class="text-header">
+                               <span>SALSEC</span>
+                           </div>
+                       </div>
+                        
+       
+                   </div>
+       
+              </header>
+               <!--Texto de Bienvenida y Botones-->
+               <div class="flex-container-letra">
+                   <div class="flex-item-1">
+                       <div class="dis-letra">A</div>
+                       <a href="{{ url_for('monitoreo') }}"><input type="button" class="botonprincipal txtboton" value="Evaluar"></a>
+                       <!--<a href="{{ url_for('video_feed') }}"><input type="button" class="botonprincipal txtboton" value="INICIAR"></a>-->
+                   </div>   
+                   <div class="flex-item-2">
+                       <img src="../static/access/a.gif" alt="" class="letra-img"/></div>
+                   </div>
+                       
+                 </div>
+           </main>
+          
+           
+       </body>
+       </html>

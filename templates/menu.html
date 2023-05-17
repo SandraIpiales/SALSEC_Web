@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta letra="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="/static/estilos/style.css">
+    <link rel="stylesheet" href="/static/estilos/l.css">
+    <link rel="stylesheet" href="/static/estilos/swiper-bundle.min.css">
+</head>
+<body class = "container">
+    <main class="cardmenu">
+         <!--Espacio del Logotipo-->
+         <header>
+              <div class="header">
+                   <img src="../static/access/logoSALSEC.png" alt="" class="header-img"/>
+                   <div class="text-header">
+                        <span>SALSEC</span>
+                   </div>
+              </div>
+         </header>
+            <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="cardletras swiper-slide">
+                            <div class="card-content">
+                                <a href="{{ url_for('letraA') }}" class="letra">A</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardletras swiper-slide">
+                        <div class="card-content">
+                            <h2 class="letra">B</h2>
+                        </div>
+                    </div>
+                    <div class="cardletras swiper-slide">
+                        <div class="card-content">
+                            <h2 class="letra">C</h2>
+                        </div>
+                    </div>
+                    <div class="cardletras swiper-slide">
+                        <div class="card-content">
+                            <h2 class="letra">D</h2>
+                        </div>
+                    </div>
+                    <div class="cardletras swiper-slide">
+                        <div class="card-content">
+                            <h2 class="letra">E</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next "></div>
+            <div class="swiper-button-prev "></div>
+            <div class="swiper-pagination"></div>
+        </div>
+            
+         
+    </main>
+</body>
+<!--Swipper-->
+<script src="../static/js/swiper-bundle.min.js"></script>
+<script src="../static/js/script-slider.js"></script>
+</html>

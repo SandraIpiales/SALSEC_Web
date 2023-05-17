@@ -1,0 +1,24 @@
+.cardmenu{
+    width: 95%;
+    height: 95%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*background: #20002c;   fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  Chrome 10-25, Safari 5.1-6 */
+     /* background: linear-gradient(to left, #cbb4d4, #20002c);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../access/ilustr/fondo.png");
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.4);
+}
+/*
+.seccion-desplegable{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #EFEFEF;
+}*/

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.cardmenu{
+    width: 95%;
+    height: 95%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*background: #20002c;   fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  Chrome 10-25, Safari 5.1-6 */
+     /* background: linear-gradient(to left, #cbb4d4, #20002c);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../access/ilustr/fondo.png");
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.4);
+}
+.slide-container{
+  max-width: 1800px;
+  width: 100%;
+  top:25%;
+}
+.slide-content{
+  margin: 0px 42px 0px 42px;
+  border-radius: 25px;
+}
+.cardletras{
+  border-radius: 25px;
+  background-color: #d84b3546;
+  background-image: url("../access/ilustr/fletras.png");
+  border-color: #D84B35;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 14px; 
+  border-radius: 25px;
+     
+}
+.card-content:hover{
+    box-shadow: 0 0px 20px 0 rgba(223, 226, 232, 0.268);
+}
+
+.letra{
+  font-size: 280px;
+  font-weight: 500;
+  padding: 30px;
+  border-radius: 15px;
+  color:#e8e4e4;
+  text-decoration: none;
+}
+
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}

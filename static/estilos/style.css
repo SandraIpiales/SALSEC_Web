@@ -1,0 +1,143 @@
+
+* {
+    margin:0;
+    padding: 20;
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+    /*background-image: url("../access/logoSALSEC.png");*/
+    text-align: center;
+    background-image: url("../access/ilustr/portada65.png");
+    
+}
+
+
+header img{
+    height: 5%;
+}
+.card{
+    width: 95%;
+    height: 95%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*background: #20002c;   fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  Chrome 10-25, Safari 5.1-6 */
+     /* background: linear-gradient(to left, #cbb4d4, #20002c);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../access/ilustr/portada65.png");
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.4);
+}
+.oculto {display:none;}
+.header{
+    display: flex;
+    justify-content: right;
+    margin: 3% 4% 2% 0;
+
+}
+.header-img{
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.text-header{
+    width: 12%;
+    height: 20%;
+    color: rgb(240, 228, 228);
+    margin-top: 2%;
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;    
+}
+
+.bienvenida{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-right: 50%;
+    /*background: linear-gradient(to left, #9b82a436, #20002c62);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bienvenida-img{
+    width: 100%;
+
+}
+.contenedor-img{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.bienvenida-Text{
+
+}
+.titulo{
+    color: #e8e4e4;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vmax;
+
+}
+.botonprincipal{
+    width: 27%;
+    height: 5%;
+    border-radius: 25px;
+    border-color: #1a1719;
+    background: linear-gradient(to right, #ad538901, #3b10539c);
+    color: #e8e4e4;
+    
+}
+.txtboton{
+    font-size: 1vmax;
+}
+
+.cuadrado{
+    margin:20px 0 0 0;
+    padding: 20px 50px 20px 50px ;
+    border-radius: 15px;
+    background: linear-gradient(to right, #c83a6228, #4508669c);
+    border: solid 1px rgba(35, 19, 72, 0.204);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size:1.8vmax ;
+}
+
+      
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+      
+.flex-item-left {
+    flex: 40%;
+    margin-left: 4%;
+    align-content: center;
+    
+}
+      
+.flex-item-right {
+    flex: 60%;
+}
+      
+      /* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1023px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      }

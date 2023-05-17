@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <link rel="stylesheet" href="/static/estilos/style.css">
+           <link rel="stylesheet" href="/static/estilos/letras.css">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+           <title>Document</title>
+       </head>
+       <body class="container">
+            <main class="cardl">
+               <!--Espacio del Logotipo-->
+               <header>
+                <div class="back">
+                    <div class="menu container2">    
+                        <input type="checkbox" id="menu"/>
+                        <label for="menu" class="l">
+                          <img src="/static/menu.png" class="menu-icono" alt="">
+                        </label>
+                        <nav class="navbar">
+                            <ul>
+                                <li>
+                                 <a href="{{ url_for('index') }}">
+                                     <i class="material-icons">home</i>
+                                     <div>Inicio</div>
+                                 </a></li>
+                                <li><a href="{{ url_for('menu') }}">
+                                 <i class="material-icons"> more_horiz</i>
+                                 <div class="">Menu</div></a></li>
+                                <li>
+                                 <a href="{{ url_for('monitoreo') }}">
+                                   <i class="material-symbols-outlined">screenshot_frame</i>
+                                    <div class="espacio">Escaner</div>
+                                 </a></li>
+                            </ul>                                  
+                        </nav>
+                       
+                    </div>
+                     <div class="header-l">
+                            <img src="../static/access/logoSALSEC.png" alt="" class="header-img"/>
+                            <div class="text-header">
+                                 <span>SALSEC</span>
+                            </div>
+                       </div>
+                            
+                </div>
+              </header>
+              
+               <!--Contenido Letra-->
+               <div class="container-aprendizaje">
+                <div class="flex-container-letra">
+                    <div class="flex-item-1">
+                        <div class="dis-letra">
+                         <div class="letraAprendizaje">A
+                         </div>
+                         </div>
+                        <!--<a href="{{ url_for('monitoreo') }}"><input type="button" class="botonprincipal txtboton" value="Evaluar"></a>
+                        <a href="{{ url_for('video_feed') }}"><input type="button" class="botonprincipal txtboton" value="INICIAR"></a>-->
+                    </div>   
+                    <div class="flex-item-2">
+                        <img src="../static/access/a.gif" alt="" class="letra-img"/></div>
+                    </div> 
+                     
+                  </div>
+                 <div class="flex-container-icon">
+                    <a href="#" ><i class="material-icons"> arrow_drop_down</i></a>
+                 </div> 
+               </div>
+
+                </main>
+
+          
+           
+       </body>
+       </html>

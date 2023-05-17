@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/static/estilos/style.css">
+    <link rel="stylesheet" href="/static/estilos/monitoreo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class = "container">
+    <main class="cardmonitoreo">
+        <h1>Video en directo 3</h1>
+        <button onclick="mostrar('contenido1')">Limpiar</button>
+        <h2>Looo</h2>
+        <div class="card-video">
+            <img  src="{{ url_for('video_feed') }}" >
+        </div>
+        <p> <a href="{{url_for('Download_File')}}">Download</a></p>
+    </main>
+</body>
+</html>
