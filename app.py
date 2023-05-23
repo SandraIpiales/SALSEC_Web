@@ -56,7 +56,8 @@ with mp_hands.Hands(
 
 
                 TotalDedos = dedos.count(1)
-                condicionalesLetras(dedos, frame,pw)
+                res2='nada'
+                condicionalesLetras(dedos, frame,pw,res2)
                 
                 pinky = obtenerAngulos(results, width, height)[1]
                 pinkY=pinky[1] + pinky[0]   

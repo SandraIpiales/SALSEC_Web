@@ -90,14 +90,24 @@ def condicionalesLetras(dedos, frame,pw,res2):
             print("T")
 
 def condicionalesLetrasA(dedos, frame,pw,res2):
-        
     font = cv2.FONT_HERSHEY_SIMPLEX
     print("holii",pw)
     if dedos == [1, 1, 0, 0, 0, 0]:
             cv2.rectangle(frame, (0, 0), (100, 100), (255, 255, 255), -1)
             res2="A"
             cv2.putText(frame, 'A exito', (20, 80), font, 3, (0, 0, 0), 2, cv2.LINE_AA)
-            cv2.putText(frame, 'Imagen Capturada', (50, 100), font, 3, (0, 0, 0), 2, cv2.LINE_AA)
+            #cv2.putText(frame, 'Imagen Capturada', (50, 100), font, 3, (0, 0, 0), 2, cv2.LINE_AA)
 
             print("A mov")
+            return res2
+    
+def condicionalesLetrasB(dedos, frame,pw,res2):
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    print("holii",pw)
+    if dedos == [0, 0, 1, 1, 1, 1]:
+            cv2.rectangle(frame, (0, 0), (100, 100), (255, 255,255), -1)
+            res2="B"
+            cv2.putText(frame, 'B exito', (20, 80), font, 3, (0, 0, 0), 2, cv2.LINE_AA)
+            cv2.putText(frame, 'Imagen Capturada', (50, 100), font, 3, (0, 0, 0), 2, cv2.LINE_AA)
+
             return res2

@@ -16,9 +16,16 @@
 }
 
 .card-video{
+    margin: auto;
     border-radius: 25px;
+    width: 80%;
     align-content: center;
-     background: linear-gradient(to right, #0A0047, #4508669c);
-     margin: 10px 20% 10px 10%;
-     padding: 25px;
+    background: linear-gradient(to right, #0A0047, #4508669c);
+    /*margin: 10px 20% 10px 10%;*/
+    padding: 10px;
+
+}
+.video{
+    width: 100%;
+    border-radius: 25px;
 }

@@ -3,18 +3,16 @@
     margin:0;
     padding: 20;
     box-sizing: border-box;
-
-
+    
 }
+
 body{
     font-family: 'Montserrat', sans-serif;
     background: white;
     /*background-image: url("../access/logoSALSEC.png");*/
     text-align: center;
     background-image: url("../access/ilustr/portada65.png");
-    
 }
-
 
 header img{
     height: 5%;
@@ -39,8 +37,7 @@ header img{
 .header{
     display: flex;
     justify-content: right;
-    margin: 3% 4% 2% 0;
-
+    margin: 3% 4% 0% 0;
 }
 .header-img{
     width: 5%;
@@ -59,13 +56,7 @@ header img{
     justify-content: center;    
 }
 
-.bienvenida{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-right: 50%;
-    /*background: linear-gradient(to left, #9b82a436, #20002c62);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 .bienvenida-img{
     width: 100%;
 
@@ -73,7 +64,8 @@ header img{
 .contenedor-img{
     position: relative;
     display: inline-block;
-    text-align: center;
+    text-align: left;
+    
 }
 .texto-encima{
     position: absolute;
@@ -119,20 +111,17 @@ header img{
     display: flex;
     flex-direction: row;
     font-size: 30px;
-    text-align: center;
-    
-    
+    margin: auto;
 }
       
 .flex-item-left {
-    flex: 40%;
-    margin-left: 4%;
+    flex: 45%;
     align-content: center;
     
 }
       
 .flex-item-right {
-    flex: 60%;
+    flex: 50%;
 }
       
       /* Responsive layout - makes a one column-layout instead of two-column layout */
