@@ -1,6 +1,5 @@
 .back{
-    
-    padding: 10px 0;
+    height: 90px ;
     justify-content: center;
     background: linear-gradient(to right, #0900472c, #45086615);
 }
@@ -19,10 +18,11 @@
 .menu .navbar ul li{ 
     position: relative;
     float: left;
+    
 }
 .menu .navbar ul li a {
     font-size: 18px;
-    padding: 10px 120px 20px 20px;
+    padding: 19px 120px 20px 20px;
     align-items: center;
     text-align: center;
     color: #ffff;
@@ -30,8 +30,9 @@
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
 }
+
 .menu .navbar ul li a:hover{
-    background: linear-gradient(to right, #0900472c, #45086615);
+    background: linear-gradient(to right, #b36a0bdc, #4e057554);
 }
 #menu{
     display: none;
@@ -42,15 +43,21 @@
 .menu .l {
     cursor: pointer;
     display: none;
+    
 }
 .header-l{
     display: flex;
     justify-content: right;
+    padding: 15px 0;
 }
 .header-img2{
     width: 5%;
 }
-
+.espacio{
+    flex: 20%;
+    margin: auto;
+    text-align: center;
+}
 
 ul {
     list-style-type: none;
